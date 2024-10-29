@@ -23,7 +23,7 @@
    - **Sim**. Durante a inclusão de uma categoria em uma tarefa, o sistema restringe a escolha às categorias já existentes, evitando associações inválidas.
 
 8. **O trabalho está funcionando corretamente?**
-   - **Sim - Parcialmente**. A estrutura e as funcionalidades principais foram configuradas, porém, está com alguns problemas que não foram sanados, mas as funcionalidades principais estão rodando corretamente, está incluindo, excluindo, listando e imprimindo.
+   - **Sim - Parcialmente**. A estrutura e as funcionalidades principais foram configuradas, porém, está com alguns problemas que não foram sanados, por exemplo, a funcionalidade de excluir não está funcionando, pois quando eu peço para excluir, o usuário adicionado é excluido.
 
 9. **O trabalho está completo?**
    - **Sim**. O trabalho contempla tdoas as partes solicitadas, incluindo CRUD com índice direto, índice indireto, relacionamento 1:N e funcionalidades adicionais para tarefas e categorias.
