@@ -32,3 +32,27 @@
     - **Sim**. O trabalho é original feito por mim e com ajuda do GPT.
 
 ---
+
+# Relatório do Trabalho
+
+Este trabalho implementa um sistema CRUD aprimorado com índices diretos e indiretos e um relacionamento **1:N** entre as entidades **Tarefa** e **Categoria**.
+
+## Funcionalidades Implementadas
+
+- **CRUD de Categorias**: O CRUD básico de categorias foi desenvolvido, permitindo as operações de inclusão, busca, atualização e exclusão de categorias.
+
+- **Índice Indireto por Nome**: Foi criado um índice indireto para a busca de categorias por nome, facilitando o acesso e recuperação rápida das informações de categoria.
+
+- **Relacionamento 1:N entre Tarefas e Categorias**: Utilizando uma árvore B+, foi implementado um relacionamento 1:N entre tarefas e categorias. Isso permite que múltiplas tarefas estejam associadas a uma única categoria.
+
+- **Listagem de Tarefas por Categoria**: O sistema permite listar todas as tarefas associadas a uma categoria específica, facilitando a organização e consulta dos dados.
+
+- **Controle de Exclusão de Categorias**: Para garantir a integridade dos dados, o sistema era pra impedir a exclusão de uma categoria, mas não está impedindo.
+
+- **Inclusão Limitada de Categorias em Tarefas**: Ao vincular uma categoria a uma tarefa, o sistema limita a escolha às categorias existentes, assegurando que somente categorias válidas sejam associadas às tarefas.
+
+## Objetivo
+
+Este trabalho visa aprimorar o gerenciamento de dados entre tarefas e categorias, promovendo a organização e acesso rápido das informações, além de assegurar a integridade referencial do sistema.
+
+
